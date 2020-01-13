@@ -3,3 +3,10 @@
 html {
     background-color: orange;
 }
+
+.center-box {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    height: 1vh;
+}

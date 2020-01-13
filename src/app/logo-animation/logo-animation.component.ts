@@ -4,8 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-logo-animation',
   template: ` <lottie-animation-view
                     [options]="lottieConfig"
-                    [width]="600"
-                    [height]="600"
+                    [width]="500"
                     (animCreated)="handleAnimation($event)">
               </lottie-animation-view>`
 })
