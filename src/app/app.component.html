@@ -3,15 +3,15 @@
         <app-logo-animation></app-logo-animation>
     </div>
 
-    <div>
+    <div @delayed-fade>
         <app-text-box name="Username"></app-text-box>
     </div>
 
-    <div>
+    <div @delayed-fade>
         <app-text-box name="Password" type="password"></app-text-box>
     </div>
 
-    <div class="row">
+    <div class="row" @delayed-fade>
         <div>
             <app-button name="Login"></app-button>
         </div>
